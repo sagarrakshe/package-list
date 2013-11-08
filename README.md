@@ -1,4 +1,4 @@
-The purpose of this repo is, to preserve the installed packages/appliations when migrating from machine to other Ubuntu machine.
+The purpose of this repo is, to preserve the installed packages/appliations when migrating from my machine to other Ubuntu machine.
 
 Export the current package list from your machine:
 
