@@ -64,6 +64,7 @@ base-files					install
 base-passwd					install
 bash						install
 bash-completion					install
+bb						install
 bc						install
 bind9-host					install
 binfmt-support					install
@@ -97,6 +98,7 @@ checkbox-qt					install
 checkinstall					install
 cheese						install
 cheese-common					install
+cli-common					install
 clojure1.4					install
 cmake						install
 cmake-data					install
@@ -112,6 +114,7 @@ conduit						install
 console-setup					install
 consolekit					install
 coreutils					install
+cowsay						install
 cpio						install
 cpp						install
 cpp-4.6						install
@@ -230,6 +233,7 @@ fonts-khmeros-core				install
 fonts-lao					install
 fonts-liberation				install
 fonts-lklug-sinhala				install
+fonts-lyx					install
 fonts-nanum					install
 fonts-opensymbol				install
 fonts-sil-abyssinica				install
@@ -408,6 +412,8 @@ gnome-control-center-unity			install
 gnome-desktop3-data				install
 gnome-dictionary				install
 gnome-disk-utility				install
+gnome-do					install
+gnome-do-plugins				install
 gnome-documents					install
 gnome-font-viewer				install
 gnome-icon-theme				install
@@ -509,6 +515,7 @@ hostname					install
 hplip						install
 hplip-data					install
 html2text					install
+htop						install
 hud						install
 humanity-icon-theme				install
 hunspell-en-us					install
@@ -606,6 +613,7 @@ libaccounts-qt1					install
 libaccountsservice0				install
 libacl1:amd64					install
 libacl1:i386					install
+libaio1:amd64					install
 libaio1:i386					deinstall
 libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
@@ -629,6 +637,7 @@ libarchive-zip-perl				install
 libarchive13:amd64				install
 libart-2.0-2:amd64				install
 libart-2.0-dev					install
+libart2.0-cil					install
 libasm3-java					install
 libasn1-8-heimdal:amd64				install
 libasn1-8-heimdal:i386				install
@@ -735,6 +744,7 @@ libburn4					install
 libbz2-1.0:amd64				install
 libbz2-1.0:i386					install
 libbz2-dev:amd64				install
+libc-ares2:amd64				install
 libc-bin					install
 libc-dev-bin					install
 libc6:amd64					install
@@ -844,6 +854,7 @@ libdatrie1:i386					install
 libdb5.1:amd64					install
 libdb5.1:i386					install
 libdb5.1-java-jni:amd64				deinstall
+libdbd-mysql-perl				install
 libdbd-sqlite3-perl				install
 libdbi-perl					install
 libdbus-1-3:amd64				install
@@ -851,6 +862,8 @@ libdbus-1-3:i386				install
 libdbus-1-dev:amd64				install
 libdbus-glib-1-2:amd64				install
 libdbus-glib-1-2:i386				install
+libdbus-glib1.0-cil				install
+libdbus1.0-cil					install
 libdbusmenu-glib4:amd64				install
 libdbusmenu-gtk3-4:amd64			install
 libdbusmenu-gtk4:amd64				install
@@ -916,6 +929,7 @@ libepub0					install
 liberror-perl					install
 libesd0:i386					deinstall
 libespeak1:amd64				install
+libev4						install
 libevdocument3-4				install
 libevent-2.0-5:amd64				install
 libevent-core-2.0-5:amd64			install
@@ -957,6 +971,7 @@ libfl-dev:amd64					install
 libflac-dev:amd64				install
 libflac8:amd64					install
 libflac8:i386					install
+libflickrnet2.2-cil				install
 libflite1:amd64					install
 libfolks-eds25:amd64				install
 libfolks-telepathy25:amd64			install
@@ -997,6 +1012,7 @@ libgconf-2-4:i386				install
 libgconf2-4:amd64				install
 libgconf2-dev					install
 libgconf2-doc					install
+libgconf2.0-cil					install
 libgcr-3-1:amd64				install
 libgcr-3-common					install
 libgcr-base-3-1:amd64				install
@@ -1008,10 +1024,12 @@ libgd2-xpm:amd64				install
 libgd2-xpm:i386					install
 libgdata-common					install
 libgdata13					install
+libgdata2.1-cil					install
 libgdbm3:amd64					install
 libgdbm3:i386					deinstall
 libgdict-1.0-6					install
 libgdict-common					install
+libgdiplus					install
 libgdk-pixbuf2.0-0:amd64			install
 libgdk-pixbuf2.0-0:i386				install
 libgdk-pixbuf2.0-common				install
@@ -1039,6 +1057,7 @@ libgl1-mesa-dri:i386				install
 libgl1-mesa-glx:amd64				install
 libgl1-mesa-glx:i386				install
 libglade2-0:amd64				install
+libglade2.0-cil					install
 libglapi-mesa:amd64				install
 libglapi-mesa:i386				install
 libgles2-mesa:amd64				install
@@ -1052,6 +1071,7 @@ libglib-perl					install
 libglib2.0-0:amd64				install
 libglib2.0-0:i386				install
 libglib2.0-bin					install
+libglib2.0-cil					install
 libglib2.0-data					install
 libglib2.0-dev					install
 libglibmm-2.4-1c2a:amd64			install
@@ -1067,21 +1087,26 @@ libgmp3-dev					install
 libgmpxx4ldbl:amd64				install
 libgnome-bluetooth11				install
 libgnome-control-center1			install
+libgnome-desktop-2-17				install
 libgnome-desktop-3-4				install
 libgnome-desktop-3-7				install
 libgnome-keyring-common				install
 libgnome-keyring-dev				install
 libgnome-keyring0:amd64				install
 libgnome-keyring0:i386				deinstall
+libgnome-keyring1.0-cil				install
 libgnome-media-profiles-3.0-0			install
 libgnome-menu-3-0				install
+libgnome-vfs2.0-cil				install
 libgnome2-0:amd64				install
 libgnome2-bin					install
 libgnome2-common				install
 libgnome2-dev:amd64				install
+libgnome2.24-cil				install
 libgnomecanvas2-0:amd64				install
 libgnomecanvas2-common				install
 libgnomecanvas2-dev:amd64			install
+libgnomedesktop2.20-cil				install
 libgnomekbd-common				install
 libgnomekbd8					install
 libgnomeui-0:amd64				install
@@ -1150,6 +1175,7 @@ libgtk2-perl					install
 libgtk2.0-0:amd64				install
 libgtk2.0-0:i386				install
 libgtk2.0-bin					install
+libgtk2.0-cil					install
 libgtk2.0-common				install
 libgtk2.0-dev					install
 libgtkhtml-4.0-0				install
@@ -1196,6 +1222,7 @@ libhtml-form-perl				install
 libhtml-format-perl				install
 libhtml-parser-perl				install
 libhtml-tagset-perl				install
+libhtml-template-perl				install
 libhtml-tree-perl				install
 libhttp-cookies-perl				install
 libhttp-daemon-perl				install
@@ -1391,6 +1418,33 @@ libmms0:amd64					install
 libmng1:amd64					install
 libmng1:i386					install
 libmodplug1					install
+libmono-addins0.2-cil				install
+libmono-cairo4.0-cil				install
+libmono-corlib4.0-cil				install
+libmono-data-tds4.0-cil				install
+libmono-i18n-west4.0-cil			install
+libmono-i18n4.0-cil				install
+libmono-posix4.0-cil				install
+libmono-security4.0-cil				install
+libmono-sharpzip4.84-cil			install
+libmono-sqlite4.0-cil				install
+libmono-system-configuration4.0-cil		install
+libmono-system-core4.0-cil			install
+libmono-system-data4.0-cil			install
+libmono-system-drawing4.0-cil			install
+libmono-system-enterpriseservices4.0-cil	install
+libmono-system-runtime-serialization-formatters-soap4.0-cil	install
+libmono-system-runtime-serialization4.0-cil	install
+libmono-system-runtime4.0-cil			install
+libmono-system-security4.0-cil			install
+libmono-system-transactions4.0-cil		install
+libmono-system-web-applicationservices4.0-cil	install
+libmono-system-web-services4.0-cil		install
+libmono-system-web4.0-cil			install
+libmono-system-xml-linq4.0-cil			install
+libmono-system-xml4.0-cil			install
+libmono-system4.0-cil				install
+libmono-web4.0-cil				install
 libmount1:amd64					install
 libmozjs-17.0-0					install
 libmozjs185-1.0					deinstall
@@ -1410,8 +1464,8 @@ libmtp9:amd64					install
 libmusicbrainz5-0:amd64				install
 libmutter0a					deinstall
 libmutter0b					install
+libmysqlclient-dev				install
 libmysqlclient18:amd64				install
-libmysqlclient18:i386				install
 libmythes-1.2-0					install
 libnatpmp1					install
 libnautilus-extension-dev			install
@@ -1421,6 +1475,8 @@ libncurses5:i386				install
 libncurses5-dev					install
 libncursesw5:amd64				install
 libncursesw5:i386				install
+libndesk-dbus-glib1.0-cil			install
+libndesk-dbus1.0-cil				install
 libneon27-gnutls				install
 libnepomuk4					install
 libnepomukcore4abi1				install
@@ -1438,6 +1494,7 @@ libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
 libnettle4:amd64				install
 libnewt0.52					install
+libnewtonsoft-json4.5-cil			install
 libnfnetlink0					install
 libnice10:amd64					install
 libnih-dbus1:amd64				install
@@ -1452,6 +1509,7 @@ libnm-gtk0					install
 libnm-util2					install
 libnotify-bin					install
 libnotify-dev					install
+libnotify0.4-cil				install
 libnotify4:amd64				install
 libnpp5.0:amd64					deinstall
 libnspr4:amd64					install
@@ -1466,6 +1524,7 @@ libnss3-1d:amd64				install
 libntrack-qt4-1					install
 libntrack0					install
 libnuma1					install
+libnunit2.6-cil					install
 libnux-4.0-0					install
 libnux-4.0-common				install
 libnvtoolsext5.0:amd64				deinstall
@@ -1608,9 +1667,13 @@ libpulsedsp:amd64				install
 libpurple-bin					install
 libpurple0					install
 libpwquality1					install
+libpython-all-dbg:amd64				install
+libpython-all-dev:amd64				install
+libpython-dbg:amd64				install
 libpython-dev:amd64				install
 libpython-stdlib:amd64				install
 libpython2.7:amd64				install
+libpython2.7-dbg:amd64				install
 libpython2.7-dev:amd64				install
 libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
@@ -1643,7 +1706,6 @@ libqt4-scripttools:amd64			install
 libqt4-scripttools:i386				deinstall
 libqt4-sql:amd64				install
 libqt4-sql:i386					install
-libqt4-sql-mysql:i386				install
 libqt4-sql-sqlite:amd64				install
 libqt4-svg:amd64				install
 libqt4-svg:i386					deinstall
@@ -1675,7 +1737,6 @@ libqt5quicktest5:amd64				install
 libqt5script5:amd64				install
 libqt5sensors5:amd64				install
 libqt5sql5:amd64				install
-libqt5sql5-mysql:amd64				install
 libqt5sql5-sqlite:amd64				install
 libqt5svg5:amd64				install
 libqt5test5:amd64				install
@@ -1941,6 +2002,7 @@ libv4l-0:i386					install
 libv4l-dev:amd64				install
 libv4lconvert0:amd64				install
 libv4lconvert0:i386				install
+libv8-3.8.9.20					install
 libva-x11-1:amd64				install
 libva1:amd64					install
 libvcdinfo0					install
@@ -1992,6 +2054,7 @@ libwmf0.2-7-gtk					install
 libwnck-3-0:amd64				install
 libwnck-3-common				install
 libwnck-common					install
+libwnck2.20-cil					install
 libwnck22					install
 libwpd-0.9-9					install
 libwpg-0.2-2					install
@@ -2104,6 +2167,7 @@ libxrender-dev:amd64				install
 libxrender1:amd64				install
 libxrender1:i386				install
 libxres1:amd64					install
+libxslt1-dev					install
 libxslt1.1:amd64				install
 libxslt1.1:i386					install
 libxss1:amd64					install
@@ -2113,7 +2177,7 @@ libxt6:amd64					install
 libxt6:i386					install
 libxtst-dev:amd64				install
 libxtst6:amd64					install
-libxtst6:i386					deinstall
+libxtst6:i386					install
 libxv1:amd64					install
 libxv1:i386					install
 libxvidcore-dev:amd64				install
@@ -2156,6 +2220,10 @@ linux-headers-3.8.0-31				install
 linux-headers-3.8.0-31-generic			install
 linux-headers-3.8.0-32				install
 linux-headers-3.8.0-32-generic			install
+linux-headers-3.8.0-33				install
+linux-headers-3.8.0-33-generic			install
+linux-headers-3.8.0-34				install
+linux-headers-3.8.0-34-generic			install
 linux-headers-generic				install
 linux-image-3.8.0-19-generic			install
 linux-image-3.8.0-26-generic			install
@@ -2164,6 +2232,8 @@ linux-image-3.8.0-29-generic			install
 linux-image-3.8.0-30-generic			install
 linux-image-3.8.0-31-generic			install
 linux-image-3.8.0-32-generic			install
+linux-image-3.8.0-33-generic			install
+linux-image-3.8.0-34-generic			install
 linux-image-extra-3.8.0-19-generic		install
 linux-image-extra-3.8.0-26-generic		install
 linux-image-extra-3.8.0-27-generic		install
@@ -2171,6 +2241,8 @@ linux-image-extra-3.8.0-29-generic		install
 linux-image-extra-3.8.0-30-generic		install
 linux-image-extra-3.8.0-31-generic		install
 linux-image-extra-3.8.0-32-generic		install
+linux-image-extra-3.8.0-33-generic		install
+linux-image-extra-3.8.0-34-generic		install
 linux-image-generic				install
 linux-libc-dev:amd64				install
 linux-sound-base				install
@@ -2217,6 +2289,9 @@ mobile-broadband-provider-info			install
 modemmanager					install
 module-init-tools				install
 mongodb-10gen					install
+mono-4.0-gac					install
+mono-gac					install
+mono-runtime					install
 mount						install
 mountall					install
 mousetweaks					install
@@ -2230,7 +2305,12 @@ mutter-common					install
 myspell-en-au					install
 myspell-en-gb					install
 myspell-en-za					install
+mysql-client-5.5				install
+mysql-client-core-5.5				install
 mysql-common					install
+mysql-server					install
+mysql-server-5.5				install
+mysql-server-core-5.5				install
 mythes-en-us					install
 nano						install
 nautilus					install
@@ -2279,6 +2359,7 @@ openssh-server					install
 openssl						install
 orbit2						install
 os-prober					install
+oss-compat					install
 overlay-scrollbar				install
 overlay-scrollbar-gtk2:amd64			install
 overlay-scrollbar-gtk3:amd64			install
@@ -2325,6 +2406,7 @@ ppp						install
 pppconfig					install
 pppoeconf					install
 pptp-linux					install
+preload						install
 printer-driver-c2esp				install
 printer-driver-foo2zjs				install
 printer-driver-gutenprint			install
@@ -2347,6 +2429,9 @@ pylint						install
 pypy						install
 pypy-lib					install
 python						install
+python-all					install
+python-all-dbg					install
+python-all-dev					install
 python-appindicator				install
 python-apt					install
 python-apt-common				install
@@ -2363,6 +2448,7 @@ python-crypto					install
 python-cups					install
 python-cupshelpers				install
 python-dateutil					install
+python-dbg					install
 python-dbus					install
 python-dbus-dev					install
 python-debian					install
@@ -2402,8 +2488,11 @@ python-logilab-common				install
 python-lxml					install
 python-mako					install
 python-markupsafe				install
+python-matplotlib				install
+python-matplotlib-data				install
 python-minimal					install
 python-mutagen					install
+python-mysqldb					install
 python-notify					install
 python-numpy					install
 python-oauthlib					install
@@ -2423,6 +2512,7 @@ python-pygments					install
 python-pygoocanvas				install
 python-pyinotify				install
 python-pyorbit					install
+python-pyparsing				install
 python-qt4					install
 python-qt4-dbus					install
 python-renderpm					install
@@ -2446,6 +2536,7 @@ python-twisted-bin				install
 python-twisted-core				install
 python-twisted-names				install
 python-twisted-web				install
+python-tz					install
 python-ubuntu-sso-client			install
 python-ubuntuone-client				install
 python-ubuntuone-control-panel			install
@@ -2463,6 +2554,7 @@ python-xdg					install
 python-zeitgeist				install
 python-zope.interface				install
 python2.7					install
+python2.7-dbg					install
 python2.7-dev					install
 python2.7-minimal				install
 python3						install
@@ -2556,6 +2648,7 @@ samba-common					install
 samba-common-bin				install
 sane-utils					install
 scons						install
+screen						install
 screen-resolution-extra				deinstall
 scrot						install
 seahorse					install
@@ -2650,6 +2743,7 @@ tracker-miner-fs				install
 tracker-utils					install
 transmission-common				install
 transmission-gtk				install
+tree						install
 tsconf						install
 ttf-dejavu					install
 ttf-dejavu-core					install
@@ -2765,6 +2859,7 @@ wbritish					install
 webaccounts-extension-common			install
 wget						install
 whiptail					install
+whois						install
 whoopsie					install
 winbind						install
 wine-gecko1.4:amd64				install
